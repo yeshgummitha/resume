@@ -1,0 +1,162 @@
+body{
+  background-color: bisque;
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+header h2{
+margin: 0%;
+}
+.header-name{
+  font-size: 1rem;
+}
+
+.header-address,.header-contact-info {
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+
+.summary-section{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.summary-section h2
+ {
+    font-size: 1rem; 
+    text-decoration: underline;
+    margin: 0%;
+
+ }
+
+ .summary-section p {
+    margin: 0%;
+    text-wrap: wrap;
+ }
+
+
+ 
+.skills-section{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    
+}
+.skills-section h2
+ {
+    font-size: 1rem; 
+    text-decoration: underline;
+    margin-top: 5px;
+ }
+
+ .skills-section table
+ {
+   text-align: left;
+   font-size: 1rem; 
+ }
+
+ .project-experience{
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 1rem;
+
+ }
+ .project-experience h2
+ {
+    font-size: 1rem; 
+    text-decoration: underline;
+    margin-top:10px;
+    padding: 0%;
+ }
+ .major-projects
+ {
+   margin:10px 0px 10px 0px;
+   font-size: 1rem; 
+}
+
+.major-projects>h2
+{
+  margin: 0px;
+}
+
+ .project-experience-role-time {
+    display:flex;
+    justify-content: flex-start;
+    width: 100%;
+ }
+
+ .project-role {
+    display:flex;
+    justify-content: flex-start;
+    width: 50%;
+ }
+ .project-role h3 {
+    font-size: .9rem !important ;
+ } 
+
+
+ .project-time {
+    display:flex;
+    justify-content: flex-end;
+    width: 50%;
+    font-size: 10px;
+ }
+ .project-time h3 {
+    font-size: .9rem !important ;
+ } 
+
+
+ .project-experience  h3
+ {
+    font-size: 1rem; 
+    margin: 0%;
+    padding: 0%;
+ }
+ .project-experience  p {
+    margin: 0%;
+    padding: 0%;
+    text-wrap: wrap;
+ }
+
+ .project-experience  ul {
+    margin: 0%;
+ }
+ 
+.education-section {
+    display:flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 10px;
+}
+.education-section h2
+ {
+    font-size: 1rem; 
+    text-decoration: underline;
+    margin: 0%;
+    padding: 0%;
+ }
+
+ .education-section h3
+ {
+    font-size: 1rem; 
+    margin: 0%;
+    padding: 0%;
+ }
+ .education-section p {
+    margin: 0%;
+    padding: 0%;
+    text-wrap: wrap;
+ }
+
+
